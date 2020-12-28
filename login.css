@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color:wheat;
+    padding-top:200px;    
+}
+body.c3{
+    background-color:wheat;
+    padding-top:200px;      
+}
+body.c5{
+    background-color:wheat;
+    padding-top:30px;   
+}
+body.c2{
+    background-color:wheat;
+    padding-top:200px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("doctorimg.jpg");
+    height:100%;
+    background-position: center;
+}
+body.c1{
+    background-image: url("doctorimg.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body.l{
+    background-color:#c0c0c0;
+}
+.logo{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width:250px;
+    height: auto;
+    padding:20px 30px;
+    background-color:#f3f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000; 
+    margin: auto;
+    position:relative;
+
+}
+h1{
+    font-family: Autour One;
+}
+h4{
+    font-family: Autour One;
+}
+h3{
+    font-family: Autour One;
+}
+h2{
+    font-family: Autour One;
+}
+.navbar {
+    min-height: 80px;
+}
+.user_img{
+    background:url("doctorimg.jpg") no-repeat;
+    width:70px;
+    height:70px;
+    background-size:100%;
+    position:absolute;
+    top:-40px;
+    left:110px;
+}
+ul.list{
+    list-style-type :none;
+    text-align:center;
+}
+body.g1{
+    text-align:center;
+}
+body.g2{
+    background-color:wheat;
+    padding-top:110px;  
+}
+ul.list li{
+    width:250px;
+    margin-bottom:15px;
+}
+ul.list li input{
+ width:250px;
+ text-align:center;
+ padding: 8px 0px;
+ border: none;
+ background-color:#d3d3d3;
+}
+ul.list li input[type="submit"]{
+    background-color:#4690fb;
+    color:#fff;
+
+}

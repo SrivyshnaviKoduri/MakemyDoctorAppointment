@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Make my Doctor Apointment</title>
+	<link rel="stylesheet"  type="text/css" href="login.css">
+</head>
+<body class="g2">
+	<marquee bgcolor="aqua"><h2> Signup with our site! </h2></marquee>
+	<br><br><br></br>
+	<form action="./psignup" method="post">
+		<div class="container">
+			<div class="user_img"></div>
+			<ul class="list">
+				<!-- place holder is used to place short disscription of item --> 
+				<li>
+					<h2>Patient signup</h2>
+				</li>
+				<li>
+					<input type="text" name="uname" placeholder="user name">
+				</li>
+				<li>
+					<input type="date" name="dob" id="birthday">
+				</li>
+				<li>
+					<h3>Age</h3>
+					<input type="integer" name="age">
+				</li>
+				<li>
+					<h3>Gender</h3>
+					<input type="radio" name="gen" value="male">Male
+					<input type="radio" name="gen" value="female">Female
+					<input type="radio" name="gen" value="others">Others
+				</li>
+				<li>
+					<h3>Health Review</h3>
+					<input type="textarea" name="hr">
+				</li>
+				<li>
+					<h3>Create your Password</h3>
+					<input type="text" name="pwd">
+				</li>
+				<li>
+					<input type="submit" value="submit">
+				</li>
+			</ul>
+		</div>
+	</form>
+</body>
+</html>
